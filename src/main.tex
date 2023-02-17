@@ -1,7 +1,36 @@
-\chapter{Metodik vid analys av planer - \mbox{Charles Ingvar Jönsson}}
+
+\documentclass[a4paper]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[swedish]{babel}
+\usepackage{todonotes}
+\usepackage{hyperref}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{blindtext}
+
+\include{settings}
+\title{Metodik vid analys av planer - \mbox{Charles Ingvar Jönsson}}
+
+\begin{document}
+
+\chapterstyle{VZ43}
+
+\maketitle
+\tableofcontents
+
 \input{introduktion}
 \input{teori}
 \input{metod}
-\inputresultat}
+\input{resultat}
 \input{diskussion}
 \input{slutsatser}
+
+
+% \appendix
+% Add individual parts
+% \include{liuid123/main}
+
+\printbibliography
+
+\end{document}
